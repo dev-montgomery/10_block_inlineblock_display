@@ -3,9 +3,74 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Block | Inline-Block</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    ul {
+      text-align: center;
+    }
+    /* Block Elements Styled As Inline Elements */
+    li {
+      display: inline;
+    }
+
+    a {
+      text-decoration: none;
+      padding-right: 20px;
+    }
+    /* Inline Element Styled As Block Element */
+    img {
+      display: block;
+      margin: auto;
+      width: 300px;
+    }
+
+    .box {
+      display: inline-block;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 15px;
+      width: 32.8%;
+    }
+  </style>
 </head>
 <body>
-  
+  <ul>
+    <li>
+      <a href="#">Web Development</a>
+    </li>
+    <li>
+      <a href="#">Sandwiches</a>
+    </li>
+    <li>
+      <a href="#">Machine Learning</a>
+    </li>
+  </ul>
+
+  <br>
+  <br>
+
+  <img src="./github.png" alt="github logo">
 </body>
+
+  <br>
+  <br>
+
+  <section>
+    <div class="box">
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium asperiores beatae consequatur dolorum aspernatur possimus vel eligendi obcaecati assumenda?</p>
+    </div>
+    <div class="box">
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium asperiores beatae consequatur dolorum aspernatur possimus vel eligendi obcaecati assumenda?</p>
+    </div>
+    <div class="box">
+      <h3>Title</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam praesentium asperiores beatae consequatur dolorum aspernatur possimus vel eligendi obcaecati assumenda?</p>
+    </div>
+  </section>
 </html>
